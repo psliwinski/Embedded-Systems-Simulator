@@ -6,23 +6,18 @@ make
 ./EmbeddedSimulator
 ```
 
+## Available commands
+
 | Commands | Description | 
-| :------: | :---------: | 
 | gpio_set | Set a GPIO pin HIGH |
-| :------: | :---------: |
-gpio_clear    - Set a GPIO pin LOW |
-| :------: | :---------: |
+gpio_clear | Set a GPIO pin LOW |
 | gpio_read | Read the state of a GPIO pin |
-| :------: | :---------: |
 | timer_start | Start a timer for a specified duration (ms) |
-| :------: | :---------: |
 | uart_send | Send data through UART |
-| :------: | :---------: |
-| uart_receive  - Simulate receiving UART data |
-| :------: | :---------: |
+| uart_receive | Simulate receiving UART data |
 | exit | Quit the program |
 
-# Example
+## Example
 1. Set GPIO pin 3 to HIGH:
 ```bash   
 Enter command: gpio_set
