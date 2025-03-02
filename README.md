@@ -8,7 +8,8 @@ make
 
 ## Available commands
 
-| Commands | Description | 
+|  Commands  | Description | 
+| ---------- | ----------- |
 | gpio_set | Set a GPIO pin HIGH |
 gpio_clear | Set a GPIO pin LOW |
 | gpio_read | Read the state of a GPIO pin |
